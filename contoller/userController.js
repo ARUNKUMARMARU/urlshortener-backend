@@ -59,7 +59,7 @@ const userController = {
             //    sendEmail(user.email, "Id activation", link);
        
                res.send("Id activation link sent to your email account");  
-               return res.status(200).json({message : "Id activation link sent to your email account"});
+             
         
             // res.json({message : "User created",user : savedUser});
 
